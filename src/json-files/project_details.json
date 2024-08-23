@@ -1,0 +1,52 @@
+{
+    "ccc":
+    {
+        "title":"Cutthroat Country Club",
+        "altTitle":"CCC",
+        "description":"./text_files/cutthroat-country-club.txt",
+        "link":"https://www.cutthroatcountryclub.com/",
+        "imagepath":"./images/ccc-laptop-view.png",
+        "tags":["React.js","Web-3"],
+        "construction":false
+    },
+    "ccc-v2":
+    {
+        "title":"Cutthroat Country Club v-2",
+        "altTitle":"CCC-v2",
+        "description":"./text_files/ccc-v2.txt",
+        "link":"https://syntax-co.github.io/ccc-rebuild/",
+        "imagepath":"./images/ccc-v2-browser-view.png",
+        "tags":["Next","React","Tailwind","Spline","MongoDB","Ethers"],
+        "construction":true
+    },
+    "kepler.io":
+    {
+        "title":"Kepler.io",
+        "altTitle":"Kepler.io",
+        "description":"./text_files/kepler-io.txt",
+        "link":"https://syntax-co.github.io/kepler-website/",
+        "imagepath":"./images/kepler-browser-view.png",
+        "tags":["Next","React","Tailwind"],
+        "construction":false
+    },
+    "asahi":
+    {
+        "title":"Asahi",
+        "altTitle":"Asahi",
+        "description":"./text_files/asahi-redesign.txt",
+        "link":"https://syntax-co.github.io/asahi-redesign/",
+        "imagepath":"./images/asahi-home.png",
+        "tags":["Next","React","Tailwind","Google API"],
+        "construction":false
+    },
+    "E//A":
+    {
+        "title":"Eldtritch Automata",
+        "altTitle":"Eldritch Automata",
+        "description":"./text_files/lorem-ipsum.txt",
+        "link":"https://syntax-co.github.io/eldritch-demo/",
+        "imagepath":"./images/eldritch-website-browser.png",
+        "tags":["Next","React","Tailwind"],
+        "construction":false
+    }
+}

@@ -2,32 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import url(./fonts.css);
+
+@import url(./about.css);
+@import url(./projects.css);
+@import url(./contact.css);
+
+html {
+  background:linear-gradient(45deg, #1a1a1a,#424242);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+
+.page-padding {
+  @apply
+  
+  sm:px-4
+  md:px-4
+  lg:px-32
+  xl:px-32
+  ;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+.app-body {
+  @apply
+  h-fit
+  flex flex-col
+  ;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+.parallax-body {
+  @apply
+  w-full h-[92vh] 
+  flex items-center justify-center
+  relative z-0 overflow-hidden 
+  ;
+}
+
+.nameParallax {
+  @apply
+  h-[85vh] flex justify-center absolute
+  
+  sm:w-[80vh]
+  md:w-[80vh]
+  lg:w-[80vw]
+  xl:w-[80vw]
+  
+  sm:rotate-90
+  md:rotate-90
+  lg:rotate-0
+  xl:rotate-0
+  
+  sm:mb-4
+  md:mb-4
+  lg:mb-0
+  xl:mb-0
+
+  ;
 }

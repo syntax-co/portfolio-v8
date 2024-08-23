@@ -1,0 +1,65 @@
+
+
+.contact-page-main-body {
+    @apply
+    w-full h-[92vh] relative 
+    flex flex-col
+    justify-center
+    
+    
+    ;
+}
+
+
+
+.contact-panel-holder {
+  @apply
+  w-[100%] h-[75%] flex items-center relative
+  justify-center
+  pt-5
+  ;
+}
+
+
+.contact-panel-left {
+  @apply
+  h-full 
+  flex flex-col items-center justify-center
+  mx-auto
+  bg-darkerSlate rounded-md
+  
+  sm:w-full
+  md:w-full
+  lg:w-1/2
+  xl:w-1/2
+
+  ;
+}
+  
+  
+.contact-panel-right {
+  @apply
+  h-full w-[40%]
+  relative 
+  rounded-md
+  mx-auto
+
+  sm:hidden
+  md:hidden
+  lg:block
+  xl:block
+
+  ;
+}
+
+
+  
+input:focus {
+    outline: none;
+    border:none;
+    
+  }
+  
+  textarea:focus {
+    outline: none;
+  }
