@@ -36,7 +36,7 @@ html {
 
 .parallax-body {
   @apply
-  w-full h-[92vh] 
+  w-full h-[85vh] 
   flex items-center justify-center
   relative z-0 overflow-hidden 
   ;
@@ -44,7 +44,7 @@ html {
 
 .nameParallax {
   @apply
-  h-[85vh] flex justify-center absolute
+  h-[87vh] flex justify-center absolute
   
   sm:w-[80vh]
   md:w-[80vh]

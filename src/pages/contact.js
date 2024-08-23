@@ -6,17 +6,6 @@ import SubmitButton from "./comps/contact-comps/submitbutton";
 import Grid from "./comps/loading-anims/grid";
 
 
-
-
-
-
-
-
-
-
-
-
-
 const Contact = ({}) => {
     const [nameFlag,setNameFlag] = useState('');
     const [emailFlag,setEmailFlag] = useState('');
@@ -119,16 +108,7 @@ const Contact = ({}) => {
   
         const result = await fetch(endpoint,config);
   
-        // if (result) {
-          
-        //   setTimeout(() => {
-        //     setSent(true)
-        //     setSending(false);
-        //     clearFields();
-        //   }, 5000);
-  
-          
-        // }
+        
   
   
       } 

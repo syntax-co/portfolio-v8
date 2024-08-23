@@ -43,7 +43,7 @@
     {
         "title":"Eldtritch Automata",
         "altTitle":"Eldritch Automata",
-        "description":"./text_files/lorem-ipsum.txt",
+        "description":"./text_files/eldritch-automata.txt",
         "link":"https://syntax-co.github.io/eldritch-demo/",
         "imagepath":"./images/eldritch-website-browser.png",
         "tags":["Next","React","Tailwind"],
