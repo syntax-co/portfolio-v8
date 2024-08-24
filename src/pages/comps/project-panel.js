@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
-
+import { IoLink } from "react-icons/io5";
 
 
 const Tag = ({label}) => {
@@ -50,6 +50,17 @@ const ProjectPanel = ({data}) => {
                         data&&
                         data._data.title
                     }
+
+                    <div className="ml-auto cursor-pointer"
+                    onClick={() => {
+                        window.location.href=data._data.link
+                    }}
+                    >
+                        <IoLink
+                        size={30}
+                        color="white" 
+                        />
+                    </div>
                 </div>
                 
                 <div className="h-[2px] w-full bg-salmon rounded-full" 
