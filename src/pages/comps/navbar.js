@@ -2,6 +2,7 @@
 
 import {useRouter} from 'next/router';
 import { useState } from 'react';
+import ContactDrop from './contact-comps/contact-dropdown';
 
 
 function Navbar({open,setOpen,setExiting}) {
@@ -33,7 +34,7 @@ function Navbar({open,setOpen,setExiting}) {
 
             <div className="w-1/2 h-full flex items-center justify-end ">
 
-
+                <ContactDrop />
             </div>
 
         </div>
