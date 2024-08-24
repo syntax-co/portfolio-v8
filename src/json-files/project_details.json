@@ -5,7 +5,7 @@
         "altTitle":"CCC",
         "description":"./text_files/cutthroat-country-club.txt",
         "link":"https://www.cutthroatcountryclub.com/",
-        "imagepath":"./images/ccc-laptop-view.png",
+        "imagepath":"/images/ccc-laptop-view.png",
         "tags":["React.js","Web-3"],
         "construction":false
     },
@@ -15,7 +15,7 @@
         "altTitle":"CCC-v2",
         "description":"./text_files/ccc-v2.txt",
         "link":"https://syntax-co.github.io/ccc-rebuild/",
-        "imagepath":"./images/ccc-v2-browser-view.png",
+        "imagepath":"/images/ccc-v2-browser-view.png",
         "tags":["Next","React","Tailwind","Spline","MongoDB","Ethers"],
         "construction":true
     },
@@ -25,7 +25,7 @@
         "altTitle":"WGI",
         "description":"./text_files/weird-girl-ink.txt",
         "link":"https://syntax-co.github.io/wgi-demo/",
-        "imagepath":"./images/wgi-browser.png",
+        "imagepath":"/images/wgi-browser.png",
         "tags":["React.js","Web-3"],
         "construction":false
     },
@@ -35,7 +35,7 @@
         "altTitle":"Kepler.io",
         "description":"./text_files/kepler-io.txt",
         "link":"https://syntax-co.github.io/kepler-website/",
-        "imagepath":"./images/kepler-browser-view.png",
+        "imagepath":"/images/kepler-browser-view.png",
         "tags":["Next","React","Tailwind"],
         "construction":false
     },
@@ -45,7 +45,7 @@
         "altTitle":"Asahi",
         "description":"./text_files/asahi-redesign.txt",
         "link":"https://syntax-co.github.io/asahi-redesign/",
-        "imagepath":"./images/asahi-home.png",
+        "imagepath":"/images/asahi-home.png",
         "tags":["Next","React","Tailwind","Google API"],
         "construction":false
     },
@@ -55,7 +55,7 @@
         "altTitle":"Eldritch Automata",
         "description":"./text_files/eldritch-automata.txt",
         "link":"https://syntax-co.github.io/eldritch-demo/",
-        "imagepath":"./images/eldritch-website-browser.png",
+        "imagepath":"/images/eldritch-website-browser.png",
         "tags":["Next","React","Tailwind"],
         "construction":false
     }

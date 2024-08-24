@@ -1,4 +1,6 @@
+import Image from "next/image";
 import { useEffect, useState } from "react";
+
 
 
 const Tag = ({label}) => {
@@ -53,7 +55,7 @@ const ProjectPanel = ({data}) => {
                 <div className="h-[2px] w-full bg-salmon rounded-full" 
                 />
                 
-                <div className="project-description"
+                <div className="project-description font-primary"
                 >
                     {text}
                 </div>
@@ -77,11 +79,16 @@ const ProjectPanel = ({data}) => {
 
             <div className="project-panel-image-holder"
             >
-                <div className="w-full h-full bg-center bg-contain bg-no-repeat"
-                style={{
-                    backgroundImage:`url(${data&&data._data.imagepath})`
-                }}
-                />
+
+                <div className="w-full relative aspect-video "
+                >
+                    <Image className="aspect-video "
+                    objectFit="cover"
+                    fill
+                    src={data&&data._data.imagepath}
+                    />
+                </div>
+                
             </div>    
 
         </div>

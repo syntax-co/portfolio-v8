@@ -89,6 +89,8 @@
     @apply
     
     aspect-video
+    flex items-center
+    relative
 
     sm:mt-auto
     md:mt-auto
