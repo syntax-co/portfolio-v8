@@ -5,8 +5,11 @@ const Tag = ({label}) => {
 
     return(
         <div className="bg-salmon rounded-full 
-        text-lg text-white font-primary
-        px-4 mx-3 my-3"
+         text-white font-primary
+        px-4 mx-3 my-2
+        
+
+        "
         >
             {label}
         </div>
@@ -39,8 +42,7 @@ const ProjectPanel = ({data}) => {
 
             <div className="project-panel-inner-content"
             >
-                <div className="text-3xl text-lightBlue font-display
-                mb-3"
+                <div className="project-title font-display"
                 >
                     {
                         data&&
@@ -56,7 +58,7 @@ const ProjectPanel = ({data}) => {
                     {text}
                 </div>
                 
-                <div className="flex flex-wrap items-center pt-10
+                <div className="flex flex-wrap items-center pt-8
                 mt-auto"
                 >
                     {

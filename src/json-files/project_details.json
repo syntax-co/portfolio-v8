@@ -11,13 +11,23 @@
     },
     "ccc-v2":
     {
-        "title":"Cutthroat Country Club v-2",
+        "title":"CCC v-2",
         "altTitle":"CCC-v2",
         "description":"./text_files/ccc-v2.txt",
         "link":"https://syntax-co.github.io/ccc-rebuild/",
         "imagepath":"./images/ccc-v2-browser-view.png",
         "tags":["Next","React","Tailwind","Spline","MongoDB","Ethers"],
         "construction":true
+    },
+    "wgi":
+    {
+        "title":"Weird Girl Ink",
+        "altTitle":"WGI",
+        "description":"./text_files/weird-girl-ink.txt",
+        "link":"https://syntax-co.github.io/wgi-demo/",
+        "imagepath":"./images/wgi-browser.png",
+        "tags":["React.js","Web-3"],
+        "construction":false
     },
     "kepler.io":
     {

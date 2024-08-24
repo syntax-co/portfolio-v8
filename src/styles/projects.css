@@ -46,18 +46,30 @@
 
     sm:pr-0
     md:pr-0
-    lg:pr-20
-    xl:pr-20
+    lg:pr-8
+    xl:pr-8
 
     sm:py-4
     md:py-4
-    lg:py-16
-    xl:py-16
+    lg:py-8
+    xl:py-8
 
     sm:mb-auto
     md:mb-auto
     lg:mb-0
     xl:mb-0
+    ;
+}
+
+.project-title {
+    @apply
+    text-3xl text-lightBlue 
+    mb-3
+
+    sm:text-3xl
+    md:text-3xl
+    lg:text-2xl
+    xl:text-2xl
     ;
 }
 
@@ -67,8 +79,8 @@
 
     sm:text-sm
     md:text-sm
-    lg:text-base
-    xl:text-base
+    lg:text-sm
+    xl:text-sm
     ;
 }
 

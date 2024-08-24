@@ -29,13 +29,28 @@ const AboutPage = () => {
                 <div className="al-panel-content"
                 >
 
-                    <div className="w-fit mb-24 my-auto"
+                    <div className="w-fit mb-24 my-auto
+                    sm:mb-24
+                    md:mb-24
+                    lg:mb-12
+                    xl:mb-12
+                "
                     >
-                        <div className="mb-2 text-6xl text-lightBlue font-display"
+                        <div className="mb-2 text-6xl text-lightBlue font-display
+                        sm:text-6xl
+                        md:text-6xl
+                        lg:text-4xl
+                        xl:text-4xl
+                        "
                         >
                             Hello!
                         </div>
-                        <div className=" text-5xl font-display"
+                        <div className=" text-5xl font-display
+                        sm:text-5xl
+                        md:text-5xl
+                        lg:text-3xl
+                        xl:text-3xl
+                        "
                         >
                             I'm Chris
                         </div>
@@ -43,7 +58,12 @@ const AboutPage = () => {
                         />
                     </div>
 
-                    <div className="text-lg font-primary"
+                    <div className="text-lg font-primary
+                    sm:text-sm
+                    md:text-sm
+                    lg:text-base
+                    xl:text-base
+                    "
                     >
                     I am a motivated web developer with a solid understanding of the MERN stack 
                     (MongoDB, Express.js, React.js, Node.js). My experience covers both front-end 
