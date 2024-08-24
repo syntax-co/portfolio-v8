@@ -106,20 +106,49 @@ const ContactDrop = () => {
         <div className="relative cursor-pointer flex items-center"
 
         >
-            <div
+            <div className="w-10 h-10 relative flex items-center justify-center"
             onClick={() => {setOpen(!open)}}
             >
-            {
-                open?
-                <IoClose
-                size={45} 
-                color="white"
-                />:
-                <IoMailOutline
-                size={40} 
-                color="white"
-                />
-            }
+                <AnimatePresence mode="exit">
+                {
+                    open?
+                    <motion.div key={'close-button'}
+                    className="absolute"
+                    initial={{opacity:0}}
+                    animate={{
+                        opacity:1,
+                        transition:{
+                            duration:.5,
+                            delay:.5
+                        }
+                    }}
+                    exit={{opacity:0}}
+                    > 
+                        <IoClose
+                        size={45} 
+                        color="white"
+                        />
+                    </motion.div>:
+                    <motion.div key={'contact-button'}
+                    className="absolute"
+                    initial={{opacity:0}}
+                    animate={{
+                        opacity:1,
+                        transition:{
+                            duration:.5,
+                            delay:.5
+                        }
+                    }}
+                    exit={{opacity:0}}
+                    >
+                        <IoMailOutline
+                        size={40} 
+                        color="white"
+                        />
+                    </motion.div>
+                }
+                </AnimatePresence>
+            
             </div>
 
             
