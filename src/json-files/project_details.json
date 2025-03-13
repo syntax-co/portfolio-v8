@@ -1,4 +1,34 @@
 {
+    "ROOP":
+    {
+        "title":"ROOP",
+        "altTitle":"ROOP",
+        "description":"./text_files/roop.txt",
+        "link":"https://syntax-co.github.io/roop/",
+        "imagepath":"/images/roop-site.png",
+        "tags":["NextJS","React","Tailwind"],
+        "construction":false
+    },
+    "wgi":
+    {
+        "title":"Weird Girl Ink",
+        "altTitle":"WGI",
+        "description":"./text_files/weird-girl-ink.txt",
+        "link":"https://syntax-co.github.io/wgi-demo/",
+        "imagepath":"/images/wgi-browser.png",
+        "tags":["React.js","Web-3"],
+        "construction":false
+    },
+    "E//A":
+    {
+        "title":"Eldtritch Automata",
+        "altTitle":"Eldritch Automata",
+        "description":"./text_files/eldritch-automata.txt",
+        "link":"https://syntax-co.github.io/eldritch-demo/",
+        "imagepath":"/images/eldritch-website-browser.png",
+        "tags":["NextJS","React","Tailwind"],
+        "construction":false
+    },
     "ccc":
     {
         "title":"Cutthroat Country Club",
@@ -16,18 +46,8 @@
         "description":"./text_files/ccc-v2.txt",
         "link":"https://syntax-co.github.io/ccc-rebuild/",
         "imagepath":"/images/ccc-v2-browser-view.png",
-        "tags":["Next","React","Tailwind","Spline","MongoDB","Ethers"],
+        "tags":["NextJS","React","Tailwind","Spline","MongoDB","Ethers"],
         "construction":true
-    },
-    "wgi":
-    {
-        "title":"Weird Girl Ink",
-        "altTitle":"WGI",
-        "description":"./text_files/weird-girl-ink.txt",
-        "link":"https://syntax-co.github.io/wgi-demo/",
-        "imagepath":"/images/wgi-browser.png",
-        "tags":["React.js","Web-3"],
-        "construction":false
     },
     "kepler.io":
     {
@@ -36,7 +56,7 @@
         "description":"./text_files/kepler-io.txt",
         "link":"https://syntax-co.github.io/kepler-website/",
         "imagepath":"/images/kepler-browser-view.png",
-        "tags":["Next","React","Tailwind"],
+        "tags":["NextJS","React","Tailwind"],
         "construction":false
     },
     "asahi":
@@ -46,17 +66,8 @@
         "description":"./text_files/asahi-redesign.txt",
         "link":"https://syntax-co.github.io/asahi-redesign/",
         "imagepath":"/images/asahi-home.png",
-        "tags":["Next","React","Tailwind","Google API"],
-        "construction":false
-    },
-    "E//A":
-    {
-        "title":"Eldtritch Automata",
-        "altTitle":"Eldritch Automata",
-        "description":"./text_files/eldritch-automata.txt",
-        "link":"https://syntax-co.github.io/eldritch-demo/",
-        "imagepath":"/images/eldritch-website-browser.png",
-        "tags":["Next","React","Tailwind"],
+        "tags":["NextJS","React","Tailwind","Google API"],
         "construction":false
     }
+    
 }
